@@ -193,6 +193,8 @@ ul.plus			{list-style-image:url("../img/plus.png")}
 ul.nobullet		{list-style:none inside none;}
 .colored		{color: #FF6666}
 p				{margin-top:5px}
+
+.right			{float:right;margin-right:100px;}
 /**
  * Non-semantic helper classes: please define your styles before this section.
  */
