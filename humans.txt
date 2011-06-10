@@ -1,0 +1,16 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Design: Sonesh Jain
+  Site: http://audegn.com
+  Programmer: Abhay Rana
+  Site: http://captnemo.in
+
+/* THANKS */
+  Names (& URL):  
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Software: Geany, Photoshop
