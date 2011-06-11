@@ -188,7 +188,7 @@ footer.a		{margin-right:10px;}
 footer			{margin-top:20px;margin-right:50px;}
 a.fb			{background-repeat:no-repeat;background-image:url("../img/fb.png");		float:right; min-width:32px;min-height:32px;}
 a.twitter		{background-repeat:no-repeat;background-image:url("../img/twitter.png");float:right; min-width:32px;min-height:32px;}
-#banner			{background-repeat:no-repeat;background-image:url("../img/banner.png"); min-width:612;min-height:300px;margin-left:174px;margin-right:174px;}
+#banner			{background-repeat:no-repeat;background-image:url("../img/banner.png"); min-width:612;min-height:232px;margin-left:174px;margin-right:174px;}
 
 ul.plus			{list-style-image:url("../img/plus.png")}
 ul.nobullet		{list-style:none inside none;}
@@ -196,6 +196,7 @@ ul.nobullet		{list-style:none inside none;}
 p				{margin-top:5px}
 
 .right			{float:right;margin-right:100px;}
+.center			{text-align:center;}
 /**
  * Non-semantic helper classes: please define your styles before this section.
  */
