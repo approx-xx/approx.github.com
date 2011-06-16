@@ -3,8 +3,7 @@ auto: true
 server: true
 navigation:
 - text: Home
-  url: /
-  liclass: first
+  url: / 
 - text: Associate With Us
   url: /associate.html
 - text: Media
@@ -13,4 +12,3 @@ navigation:
   url: /clients.html
 - text: Contact Us
   url: /contact.html
-  liclass: last

@@ -180,18 +180,18 @@ header			{margin-top:20px;}
 #links li a:active,#links li a:hover	{color: #FF6666;text-decoration:none}
 #links li.last							{border-right:none;padding-right:0px;}
 #links li a.active{color:#FF6666 !important;}
-#logo			{background-image:url("../img/logo.png");float:right; min-width:237px;min-height:100px;margin-right:0px;}
-.bigplus		{margin-left:-30px;color:#FF6666;background-image:url("../img/yellow-cross.png");background-repeat:no-repeat; font-weight:bold;padding-left:34px;padding-top:26px;font-size:32px}
+#logo			{background-image:url("/img/logo.png");float:right; min-width:237px;min-height:100px;margin-right:0px;}
+.bigplus		{margin-left:-30px;color:#FF6666;background-image:url("/img/yellow-cross.png");background-repeat:no-repeat; font-weight:bold;padding-left:34px;padding-top:26px;font-size:32px}
 #content		{text-align:justify;color: #0099CC;font-size:16px;}
 
 .quote			{margin-top:20px;font-style:italic;font-size:large;font-weight:bold;color:#FF6666;text-align:center;}
 footer.a		{margin-right:10px;}
 footer			{margin-top:20px;margin-right:50px;}
-a.fb			{background-repeat:no-repeat;background-image:url("../img/fb.png");		float:right; min-width:32px;min-height:32px;}
-a.gmail			{background-repeat:no-repeat;background-image:url("../img/gmail.png");float:right; min-width:32px;min-height:32px;}
-#banner			{background-repeat:no-repeat;background-image:url("../img/banner-new.png"); min-width:612;min-height:200px;margin-left:174px;margin-right:174px;}
+a.fb			{background-repeat:no-repeat;background-image:url("/img/fb.png");		float:right; min-width:32px;min-height:32px;}
+a.gmail			{background-repeat:no-repeat;background-image:url("/img/gmail.png");float:right; min-width:32px;min-height:32px;}
+#banner			{background-repeat:no-repeat;background-image:url("/img/banner-new.png"); min-width:612;min-height:200px;margin-left:174px;margin-right:174px;}
 
-ul.plus			{list-style-image:url("../img/plus.png")}
+ul.plus			{list-style-image:url("/img/plus.png")}
 ul.nobullet		{list-style:none inside none;}
 .colored		{color: #FF6666}
 p				{margin-top:5px}
