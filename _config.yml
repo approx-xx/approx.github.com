@@ -1,3 +1,16 @@
 pygments: false
 auto: true
 server: true
+navigation:
+- text: Home
+  url: /
+  liclass: first
+- text: Associate With Us
+  url: /associate.html
+- text: Media
+  url: /media.html
+- text: Clients
+  url: /clients.html
+- text: Contact Us
+  url: /contact.html
+  liclass: last

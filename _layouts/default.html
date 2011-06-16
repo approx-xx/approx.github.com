@@ -35,13 +35,22 @@
   <div id="container">
     <header>
 		<ul id="links">
-			<li class="first"><a class="active" href="./index.html">Home</a></li>
+			{% for link in site.navigation %}
+				{% assign current = nil %}
+				{% if page.url == link.url %}
+					{% assign current = 'current' %}
+				{% endif %}
+				<li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+					<a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+				</li>
+			{% endfor %}
+			<!--<li class="first"><a class="active" href="./index.html">Home</a></li>
 			<li><a href="./associate.html">Associate With Us</a></li>
 			<li><a href="./media.html">Media</a></li>
 			<li><a href="./clients.html">Clients</a></li>
-			<li class="last"><a  href="./contact.html">Contact Us</a></li>
+			<li class="last"><a  href="./contact.html">Contact Us</a></li>-->
 		</ul>			
-		<a href="./" id="logo"></a>
+		<a href="/" id="logo"></a>
 		<div class="clearfix"></div>
     </header>
     {{content}}
