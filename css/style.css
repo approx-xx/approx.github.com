@@ -173,22 +173,23 @@ a:hover { color: #036; }
 
 #container		{width:960px;font-family: Futura, “Century Gothic”, AppleGothic, sans-serif - p, t;margin-left:auto;margin-right:auto;}
 header			{margin-top:20px;}
-#links			{list-style: none inside none; color: #0099CC;font-size:20px;}
+#links li.first	{padding-left:0px;}
+#links			{margin-left:0px;list-style: none inside none; color: #0099CC;font-size:20px;}
 #links li		{display:block;float:left;padding-left:10px;border-right:2px solid #0099CC ;padding-right:15px;padding-left:15px;}
 #links li a	,#links li a:visited		{color: #0099CC;text-decoration:none}
 #links li a:active,#links li a:hover	{color: #FF6666;text-decoration:none}
 #links li.last							{border-right:none;padding-right:0px;}
 #links li a.active{color:#FF6666 !important;}
-#logo			{background-image:url("../img/logo.png");float:right; min-width:290px;min-height:105px;margin-right:50px;}
+#logo			{background-image:url("../img/logo.png");float:right; min-width:237px;min-height:100px;margin-right:0px;}
 .bigplus		{margin-left:-30px;color:#FF6666;background-image:url("../img/yellow-cross.png");background-repeat:no-repeat; font-weight:bold;padding-left:34px;padding-top:26px;font-size:32px}
-#content		{color: #0099CC;font-size:16px;}
+#content		{text-align:justify;color: #0099CC;font-size:16px;}
 
 .quote			{margin-top:20px;font-style:italic;font-size:large;font-weight:bold;color:#FF6666;text-align:center;}
 footer.a		{margin-right:10px;}
 footer			{margin-top:20px;margin-right:50px;}
 a.fb			{background-repeat:no-repeat;background-image:url("../img/fb.png");		float:right; min-width:32px;min-height:32px;}
-a.twitter		{background-repeat:no-repeat;background-image:url("../img/twitter.png");float:right; min-width:32px;min-height:32px;}
-#banner			{background-repeat:no-repeat;background-image:url("../img/banner.png"); min-width:612;min-height:232px;margin-left:174px;margin-right:174px;}
+a.gmail			{background-repeat:no-repeat;background-image:url("../img/gmail.png");float:right; min-width:32px;min-height:32px;}
+#banner			{background-repeat:no-repeat;background-image:url("../img/banner-new.png"); min-width:612;min-height:200px;margin-left:174px;margin-right:174px;}
 
 ul.plus			{list-style-image:url("../img/plus.png")}
 ul.nobullet		{list-style:none inside none;}
